@@ -24,3 +24,11 @@ main header h1{
     color: brown;
     border-bottom: 2px solid gray;
 }
+@media (width<700px){
+    main{
+        
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
